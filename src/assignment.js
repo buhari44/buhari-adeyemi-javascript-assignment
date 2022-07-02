@@ -20,7 +20,7 @@ for(let i =0; i< arrayOfNumbers.length; i++){
   }
 return num
 }
-
+ assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -35,7 +35,7 @@ function countEvenNumbers(arrayOfNumbers){
 const evenNumbers = arrayOfNumbers.filter (even => even%2 === 0 )
 return evenNumbers.length
 }
-
+assignment.countEvenNumbers=countEvenNumbers
 
 /**
  * Challenge - 3
